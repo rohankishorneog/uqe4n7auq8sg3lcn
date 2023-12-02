@@ -1,10 +1,11 @@
-
+import { Routes, Route } from "react-router";
+import LandingPage from "./Pages/LandingPage/LandingPage";
 
 function App() {
   return (
-    <div >
-     Lets Start
-    </div>
+    <Routes>
+      <Route exact path="/"  element={<LandingPage/>}></Route>
+    </Routes>
   );
 }
 
