@@ -1,5 +1,6 @@
 import React from 'react'
 import "./LandingPage.css"
+import Resume from '../../Components/Resume/Resume'
 
 const LandingPage = () => {
     return (
@@ -34,6 +35,11 @@ const LandingPage = () => {
                     </ul>
                 </p>
             </section>
+
+
+            
+            {/* section for Download link to resume */}
+            <Resume/>
         </div>
     )
 }
