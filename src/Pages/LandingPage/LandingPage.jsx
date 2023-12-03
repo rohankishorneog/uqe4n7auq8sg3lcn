@@ -1,34 +1,41 @@
 import React from 'react'
+import "./LandingPage.css"
 
 const LandingPage = () => {
-  return (
-    <div>
-        <section className='candidate-details'>
-            <h3>Name: Rohan</h3>
-            <h3> Degree Passout year: Aug-2023</h3>
-            <h3>I am familiar with these technologies and have made various projects using :</h3> 
-            <p className='skills'>
-                <li className='skills-list-left'>
-                    <ul>html</ul>
-                    <ul>Javascript</ul>
-                    <ul>React</ul>
-                    <ul>Css</ul>
-                    <ul>Bootstrap</ul>
-                </li>
+    return (
+        <div className='Landing-page-main'>
 
-                <li className='skills-list-right'>
-                    <ul>NodeJS</ul>
-                    <ul>Mongodb</ul>
-                    <ul>Mysql</ul>
-                    <ul>ExpressJs</ul>
-                    <ul>Typescript</ul>
-                    <ul>State management using contextAPI or Redux</ul>
-                    <ul>For testing Jest</ul>
-                </li>
-            </p>           
-        </section>
-    </div>
-  )
+
+            {/* section for candidate details */}
+
+            <section className='candidate-details'>
+                <h3>Name: Rohan</h3>
+                <h3> Degree Passout year: Aug-2023</h3>
+                <h3>I am familiar with these technologies and have made various projects using :</h3>
+                <p className='skills'>
+                    <ul className='skills-list-left'>
+                        <li>HTML</li>
+                        <li>Javascript</li>
+                        <li>React</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Git and GitHub</li>
+                        <li>Java</li>
+                    </ul>
+
+                    <ul className='skills-list-right'>
+                        <li>NodeJS</li>
+                        <li>Mongodb</li>
+                        <li>Mysql</li>
+                        <li>ExpressJs</li>
+                        <li>Typescript</li>
+                        <li>Context API or Redux</li>
+                        <li>For testing Jest</li>
+                    </ul>
+                </p>
+            </section>
+        </div>
+    )
 }
 
 export default LandingPage
