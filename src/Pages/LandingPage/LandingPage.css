@@ -1,0 +1,12 @@
+.candidate-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
