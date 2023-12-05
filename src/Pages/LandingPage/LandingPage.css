@@ -10,3 +10,20 @@
     align-items: center;
 }
 
+
+.all-sections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+
+}
+
+.bmi-section{
+    border: solid 1px black;
+    padding: 2%;
+    width: fit-content;
+    margin-top: 2%;
+}
+

@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Resume.css"
 
 const Resume = () => {
   const pdfFileName = 'RohanKishorNeog_.Resume.pdf';
@@ -10,9 +11,9 @@ const Resume = () => {
       
             {/* section for Download link to resume */}
 
-            <section>
+            <section className='resume-section'>
                 <p>Hi, I am Rohan Kishor Neog. I am a fullstack developer. Here is a link to my resume:</p>
-                <a href={pdfFilePath} download>Download</a>
+                <a href={pdfFilePath} download>Download Rohan's Resume</a>
 
 ...
             </section>

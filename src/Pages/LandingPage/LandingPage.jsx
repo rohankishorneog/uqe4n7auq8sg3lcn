@@ -3,12 +3,14 @@ import "./LandingPage.css"
 import Resume from '../../Components/Resume/Resume'
 
 import { Link } from 'react-router-dom'
+import NavBar from '../../Components/NavBar/NavBar'
 
 const LandingPage = () => {
     return (
         <div className='Landing-page-main'>
+            <NavBar/>
 
-
+            <div className='all-sections'>
             {/* section for candidate details */}
 
             <section className='candidate-details'>
@@ -45,11 +47,14 @@ const LandingPage = () => {
 
 
             {/* Bmi Caluclator link */}
-            <div>
+            <div className='bmi-section'>
+                <p>
+                    Want to calculate your BMI click here:
+                </p>
                 <Link to="/bmiCalculator">Calculate Your BMI</Link>
             </div>
 
-
+        </div>
         </div>
     )
 }

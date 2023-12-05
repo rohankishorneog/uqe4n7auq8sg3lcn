@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./BmiCalculationPage.css"
+import NavBar from '../../Components/NavBar/NavBar';
 
 const BmiCalculationPage = () => {
   const [weight, setWeight] = useState('');
@@ -15,7 +16,7 @@ const BmiCalculationPage = () => {
     const heightValue = parseFloat(height);
 
     if (isNaN(weightValue) || isNaN(heightValue) || weightValue < 1.0 || weightValue > 300.0 || heightValue < 0.1 || heightValue > 3.0){
-      
+
       setErrorMessage('Please enter a valid weight (1.0-300.0 kg) and height (0.1-3.0 meters).');
       setBmi(null);
 
@@ -30,7 +31,11 @@ const BmiCalculationPage = () => {
 
 
   return (
+    <div>
+
+        <NavBar/>
     <div className='bmiCalculation-main-div'>
+     
       <h3>BMI calculator:</h3>
 
 
@@ -60,7 +65,7 @@ const BmiCalculationPage = () => {
         )}
       </div>
      
-
+    </div>
     </div>
   )
 }
