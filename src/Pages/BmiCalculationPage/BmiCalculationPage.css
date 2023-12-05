@@ -1,0 +1,23 @@
+.bmiCalculation-main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+
+.bmiCalculator{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+
+
+.bmi-bttn{
+    margin-top:2vh;
+}
+
+
+
+
+
