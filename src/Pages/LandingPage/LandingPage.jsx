@@ -2,6 +2,8 @@ import React from 'react'
 import "./LandingPage.css"
 import Resume from '../../Components/Resume/Resume'
 
+import { Link } from 'react-router-dom'
+
 const LandingPage = () => {
     return (
         <div className='Landing-page-main'>
@@ -40,6 +42,14 @@ const LandingPage = () => {
             
             {/* section for Download link to resume */}
             <Resume/>
+
+
+            {/* Bmi Caluclator link */}
+            <div>
+                <Link to="/bmiCalculator">Calculate Your BMI</Link>
+            </div>
+
+
         </div>
     )
 }
