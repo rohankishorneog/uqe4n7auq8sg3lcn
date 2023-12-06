@@ -1,7 +1,3 @@
-Here is the link to the deplyed website:
-
-https://splendid-sprinkles-ea3ac7.netlify.app/
-
 
 
 Screenshots of the pages:
