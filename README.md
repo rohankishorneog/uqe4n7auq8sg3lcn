@@ -11,4 +11,4 @@ Screenshots of the pages:
 
 
 
-link to learning.md file: https://github.com/rohankishorneog/uqe4n7auq8sg3lcn/blob/bb6b1bf82e0a3ef838b29ddf5e528e491e0e8164/Learning.md
+Link to learning.md file: https://github.com/rohankishorneog/uqe4n7auq8sg3lcn/blob/bb6b1bf82e0a3ef838b29ddf5e528e491e0e8164/Learning.md
