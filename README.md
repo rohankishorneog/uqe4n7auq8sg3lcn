@@ -1,5 +1,9 @@
 Here is the link to the deplyed website:
 
+github pages:
+https://rohankishorneog.github.io/uqe4n7auq8sg3lcn/
+
+netlify:
 https://splendid-sprinkles-ea3ac7.netlify.app/
 
 
